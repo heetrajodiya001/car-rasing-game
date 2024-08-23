@@ -17,7 +17,7 @@ public class JunretCoin : MonoBehaviour
         Vector3 pos = new Vector3(ran, 5.9f, 0);
         Quaternion rotation = Quaternion.Euler(0, 0, 0);
         Instantiate(CoinPrefab, pos, rotation);
-        print("===-===");
+        print("===-==-----------=");
         Invoke("GeneratCoin", 1);
     }  
     public void restartGame()
@@ -34,6 +34,6 @@ public class JunretCoin : MonoBehaviour
         {
             Destroy(coin);
         }
-        print("AAAAA" + Coins.Length);
+        print("AAAAA === >" + Coins.Length);
     }
 }
