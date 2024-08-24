@@ -10,9 +10,9 @@ public class WinPage : MonoBehaviour
     public JunretCoin junretCoin;
     public void MoveToplayGame()
     {
-        isGameOver = false;
+       
         MoveToEndGame.SetActive(false);
-        junretCar.restartGame();
-        junretCoin.restartGame();
+        junretCar.Restat();
+        isGameOver = false;
     }
 }

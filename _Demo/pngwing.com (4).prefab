@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &529876204880464613
+--- !u!1 &3091687325107479761
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4997191489683439288}
-  - component: {fileID: 6187294647134520783}
-  - component: {fileID: -7830251674760245131}
-  - component: {fileID: 6840177994599563788}
+  - component: {fileID: 5919485700304836575}
+  - component: {fileID: 2798818522633122809}
+  - component: {fileID: 7209988950081195670}
+  - component: {fileID: 7039406396470816473}
+  - component: {fileID: -503065286816288070}
   m_Layer: 0
-  m_Name: car
-  m_TagString: Anime
+  m_Name: pngwing.com (4)
+  m_TagString: AnimesCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4997191489683439288
+--- !u!4 &5919485700304836575
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529876204880464613}
+  m_GameObject: {fileID: 3091687325107479761}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -1.7223, y: -2, z: 0}
+  m_LocalScale: {x: 0.04145028, y: 0.04115397, z: 0.04115397}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6187294647134520783
+--- !u!212 &2798818522633122809
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529876204880464613}
+  m_GameObject: {fileID: 3091687325107479761}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -74,38 +75,37 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: a95f9e916bf97c847b0524dc1300a117, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 2b4426dda50cd9d459f9cf9292d80b96, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 15.4, y: 15.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-7830251674760245131
+--- !u!114 &7209988950081195670
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529876204880464613}
+  m_GameObject: {fileID: 3091687325107479761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb6f478bf055bb42b0ffaefbf42b887, type: 3}
+  m_Script: {fileID: 11500000, guid: 3057160682179e642b476b90298b0e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
---- !u!61 &6840177994599563788
-BoxCollider2D:
+--- !u!58 &7039406396470816473
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529876204880464613}
+  m_GameObject: {fileID: 3091687325107479761}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -132,15 +132,18 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.46, y: 8.5}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.46, y: 8.5}
-  m_EdgeRadius: 0
+  m_Radius: 6.620277
+--- !u!114 &-503065286816288070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3091687325107479761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb6f478bf055bb42b0ffaefbf42b887, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2

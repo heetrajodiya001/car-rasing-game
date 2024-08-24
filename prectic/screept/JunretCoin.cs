@@ -12,7 +12,7 @@ public class JunretCoin : MonoBehaviour
     }
     public void GeneratCoin()
     {
-        //if (WinPage.isGameOver) return;
+        if (WinPage.isGameOver) return;
         float ran = Random.Range(-1.87f, 1.87f);
         Vector3 pos = new Vector3(ran, 5.9f, 0);
         Quaternion rotation = Quaternion.Euler(0, 0, 0);

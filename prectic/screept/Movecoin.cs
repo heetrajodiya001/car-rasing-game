@@ -5,7 +5,7 @@ public class Movecoin : MonoBehaviour
 {   
     private void Update()
     {
-        if (WinPage.isGameOver) return;
+       //
         moveCoin();
     }
     public void moveCoin()
@@ -19,8 +19,8 @@ public class Movecoin : MonoBehaviour
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
-    {       
+    {
+        if (WinPage.isGameOver) return;
         Destroy(gameObject);
-        print("hello");
     }
-}
+    }

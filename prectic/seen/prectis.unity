@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db4634b76847d804c94eb9a0a56e5206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carPrefab: {fileID: 7419174324153241041, guid: 20b84965b12ab5d418c03e27ed09c9d2, type: 3}
+  carprefeb: {fileID: 7419174324153241041, guid: 20b84965b12ab5d418c03e27ed09c9d2, type: 3}
 --- !u!114 &251793106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -492,6 +492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveToEndGame: {fileID: 1793882227}
   junretCar: {fileID: 251793105}
+  junretCoin: {fileID: 0}
 --- !u!1 &515941114
 GameObject:
   m_ObjectHideFlags: 0
