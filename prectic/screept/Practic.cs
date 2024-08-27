@@ -1,13 +1,20 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class NewBehaviourScript : MonoBehaviour
+using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
+public class Practic : MonoBehaviour
 {
     public GameObject  MoveToEndGame;
     Vector3 initPos;
+    public Text Text;
+    private int score = 0;
+
     private void Start()
     {
         initPos = transform.position;
+        UpdateScore();
     }
     private void Update()
     {
@@ -43,5 +50,30 @@ public class NewBehaviourScript : MonoBehaviour
         //collision.collider.gameObject.name
         MoveToEndGame.SetActive(true);
         print("OnCollisionEnter2D");
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        print("Hsadkjfhgads");
+        print("OnTriggerEnter2D:" + collision.tag);
+        if (collision.tag == "Anime")
+        {
+            print("A =====>"+ collision.tag);
+        }
+        else if (collision.tag == "AnimesCoin")
+        {
+            collision.transform.DOMove(new Vector2(-1.68f, 4.38f), 0.5f);
+            Destroy(collision.gameObject,0.51f);
+            score++;
+            UpdateScore();
+        } 
+    }
+    private void UpdateScore()
+    {
+        Text.text = "" + score.ToString();
+    }
+    public void ResetScore() 
+    {
+        score = 0;
+        UpdateScore();
     }
 }

@@ -11,11 +11,9 @@ public class Road : MonoBehaviour
     {
         roadMat = GetComponent<MeshRenderer>().material;
     }
-    // Update is called once per frame
     void Update()
     {
         if (WinPage.isGameOver) return;
-        //print("" + Time.deltaTime);
         offset.y += .5f * Time.deltaTime;
         roadMat.SetTextureOffset("_MainTex", offset);
     }   

@@ -35,6 +35,5 @@ public class JunretCar : MonoBehaviour
             Destroy(item);
         }
         print("==>" + car.Length);
-
     }
 }

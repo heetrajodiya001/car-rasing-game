@@ -29,7 +29,7 @@ public class PlayerCar : MonoBehaviour
         {
 
         }
-        else if(collision.tag == "AnimesCoin")
+        else if (collision.tag == "AnimesCoin")
         {
             Destroy(collision.gameObject);
         }
