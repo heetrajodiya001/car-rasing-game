@@ -9,11 +9,11 @@ public class JunretCar : MonoBehaviour
      GameObject carprefeb;
     private void Start()
     {
-        Invoke("Generetcar",2);
+        Invoke("Generetcar",1);
     }
     public void Generetcar()
     {
-        if (WinPage.isGameOver) return;
+        if (WinPage.isGameOver) return;          
         float ran = Random.Range(-1.87f, 1.87f);
         Vector3 pos = new Vector3(ran, 5.9f, 0);
         Quaternion rotation = Quaternion.Euler(0, 0, 0);
@@ -36,4 +36,5 @@ public class JunretCar : MonoBehaviour
         }
         print("==>" + car.Length);
     }
+
 }
