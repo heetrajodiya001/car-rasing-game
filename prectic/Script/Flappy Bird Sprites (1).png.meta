@@ -183,7 +183,7 @@ TextureImporter:
         width: 36
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -191,6 +191,69 @@ TextureImporter:
       bones: []
       spriteID: 5640c6910f935e14695d5ca3538a3171
       internalID: 2078557242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy Bird Sprites (1)_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 144
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a22f8379006f4740942d5f693346e6e
+      internalID: -2024412427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy Bird Sprites (1)_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 97
+        width: 26
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975798e93e2469a408ad39954d4e8643
+      internalID: -1823282846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flappy Bird Sprites (1)_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 61
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b8d834efe20a940ac5739b15d22ca2
+      internalID: -978906330
       vertices: []
       indices: 
       edges: []
@@ -211,6 +274,9 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Flappy Bird Sprites (1)_0: 2078557242
+      Flappy Bird Sprites (1)_1: -2024412427
+      Flappy Bird Sprites (1)_2: -1823282846
+      Flappy Bird Sprites (1)_3: -978906330
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

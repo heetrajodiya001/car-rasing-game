@@ -136,7 +136,6 @@ GameObject:
   - component: {fileID: 251793100}
   - component: {fileID: 251793104}
   - component: {fileID: 251793105}
-  - component: {fileID: 251793106}
   m_Layer: 0
   m_Name: Rode
   m_TagString: Untagged
@@ -256,18 +255,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   carprefeb: {fileID: 7419174324153241041, guid: 20b84965b12ab5d418c03e27ed09c9d2, type: 3}
---- !u!114 &251793106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251793099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 847fe76daac820c4a925d318a69dc521, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   CoinPrefab: {fileID: 3760740727345808960, guid: e8340acbb2c24c54e8cae67db1565269, type: 3}
 --- !u!1 &316218508
 GameObject:
